@@ -1,0 +1,20 @@
+{
+  "name": "osai-track-02-swap-model",
+  "version": "0.1.0",
+  "description": "Track 2, Swap the local model: run the same agent on a different Ollama model.",
+  "type": "module",
+  "scripts": {
+    "start": "tsx main.ts"
+  },
+  "dependencies": {
+    "@opensymbolicai/core": "^0.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

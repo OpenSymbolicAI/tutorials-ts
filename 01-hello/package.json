@@ -1,0 +1,20 @@
+{
+  "name": "osai-track-01-hello",
+  "version": "0.1.0",
+  "description": "Track 1, Hello OpenSymbolicAI: a working agent that plans and executes a small arithmetic task.",
+  "type": "module",
+  "scripts": {
+    "start": "tsx main.ts"
+  },
+  "dependencies": {
+    "@opensymbolicai/core": "^0.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "osai-track-03-cloud-provider",
+  "version": "0.1.0",
+  "description": "Track 3, Swap to a cloud provider: run the same agent on a hosted provider.",
+  "type": "module",
+  "scripts": {
+    "start": "tsx main.ts"
+  },
+  "dependencies": {
+    "@opensymbolicai/core": "^0.1.0",
+    "dotenv": "^16.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
